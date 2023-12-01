@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c248b08-8ad6-4926-9d99-014b8fcc5a3b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/Pycharm Projects.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/main.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/warn-main.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/main/xref-main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/db.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/Budanok.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/Fontchange.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/Gamewindow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/Globals.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/Mainwindow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/OptionWindow.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/Register.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/backgroundcolor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/buttonscolor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/database/db.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/diflevel.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/fontsize.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/newpic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/picname.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/tableform_ui.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/textcolor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/Пояснительная записка Буданок.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/Презентация QT Буданок.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/ТЗ Буданок.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/мем.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/films_db.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/.idea/YaProject_copy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/build/main/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/build/main/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/build/main/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/build/main/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/build/main/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/build/main/base_library.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/build/main/generated-730c0b5fd3f32b8f6a7679f3ed49d2e205751182d83dc525cc0e7d893cd6e330.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/build/main/main.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/build/main/main.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/build/main/warn-main.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/build/main/xref-main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/databases/db.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/db.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/dist/databases/db.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/dist/images/note_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/dist/images/resized_note_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/dist/main.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/dist/selected_notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/images/note_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/images/resized_note_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/main.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/selected_notes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/Пояснительная записка (5).docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/Стикеры-заметки расширенная (3).pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/субботин/YaProject_copy/Техническое задание Субботин (1).docx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2YwbNExlbrolhLnJGVyy8Zi5Zw6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c248b08-8ad6-4926-9d99-014b8fcc5a3b" name="Changes" comment="" />
+      <created>1701439549084</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701439549084</updated>
+    </task>
+    <servers />
+  </component>
+</project>
