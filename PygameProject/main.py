@@ -3,7 +3,7 @@ import random
 
 cell = Actor('блокккк')
 
-WIDTH = 60
+WIDTH = 600
 HEIGHT = 800
 
 TITLE = "Energy Wars"  # Заголовок окна игры
