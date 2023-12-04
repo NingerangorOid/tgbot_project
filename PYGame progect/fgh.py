@@ -1,43 +1,108 @@
-import pygame
-from pygame import Color
+# pgzero
+import random
 
-if __name__ == '__main__':
-    pygame.init()
-    pygame.display.set_caption('Желтый круг')
-    size = width, height = 400, 400
-    screen = pygame.display.set_mode(size)
-    clock = pygame.time.Clock()
+cell = Actor('блокккк')
 
-    running = True
-    drawing = False
-    circle_radius = 10
-    circle_color = Color('white')
-    circle = []
-    speed = []
+WIDTH = 600
+HEIGHT = 800
 
-    screen2 = pygame.Surface(screen.get_size())
+TITLE = "Energy Wars"  # Заголовок окна игры
+FPS = 60  # Количество кадров в секунду
 
-    while running:
+# объекты
+char = Actor('главный герой2', (575, 455))
+leg = Actor('ноги')
+fon = Actor('фон')
+enemy_tree1 = Actor('д заражёное 1')
+enemy_tree2 = Actor('д заражёное 2')
+enemy_shrum1 = Actor('г заражёый 1')
+enemy_shrum2 = Actor('г заражёый 2')
+enemy_bee = Actor('п заражёная 12')
+mistore = Actor('предмет з')
+iron = Actor('предмет ж')
+wires = Actor('предмет п')
+glas = Actor('предмет с')
+syringe = Actor('оружие нчк')
+gan1 = Actor('оружие мк')
+gan2 = Actor('оружие бк')
+sword = Actor('оружие блк')
+sayler = Actor('торговец', (340, 455))
+buttun = Actor('кнопка', (300, 400))
+buttun_inventory = Actor('кнопка', (550, 50))
+# переменые
+mode = 'menu'
 
-        for event in pygame.event.get():
-            screen2 = pygame.Surface(screen.get_size())
+# таблицы
+list0 = [[1, 1, 1, 1, 1, 1, 1],
+         [1, 1, 1, 1, 1, 1, 1],
+         [1, 0, 0, 0, 0, 0, 1],
+         [0, 0, 0, 0, 0, 0, 0],
+         [0, 0, 0, 0, 0, 0, 0],
+         [1, 1, 1, 1, 1, 1, 1],
+         [1, 1, 1, 1, 1, 1, 1]]
 
-            if event.type == pygame.QUIT:
-                running = False
+list1 = [[1, 1, 1, 1, 1, 1, 1],
+         [1, 1, 1, 1, 1, 1, 1],
+         [0, 0, 0, 0, 0, 0, 0],
+         [0, 0, 0, 0, 0, 0, 0],
+         [0, 0, 1, 1, 0, 0, 0],
+         [1, 1, 1, 1, 1, 1, 1],
+         [1, 1, 1, 1, 1, 1, 1]]
 
-            if event.type == pygame.MOUSEBUTTONUP:
-                circle.append(list(event.pos))
-                speed.append([-1, -1])
 
-        screen2.fill(Color('black'))
-        for i in range(len(circle)):
-            for ext in (0, 1):
-                if circle[i][ext] >= size[ext] - circle_radius or circle[i][ext] <= circle_radius:
-                    speed[i][ext] = -speed[i][ext]
-                circle[i][ext] += speed[i][ext]
-            pygame.draw.circle(screen2, circle_color, circle[i], circle_radius, 0)
-            pygame.display.flip()
-        screen.blit(screen2, (0, 0))
-        pygame.display.flip()
-        clock.tick(100)
-    pygame.quit()
+# отрисовка  карты
+def map_draw():
+    for i in range(len(list0)):
+        for j in range(len(list0[0])):
+            if list0[i][j] == 1:
+                cell.left = cell.width * j
+                cell.top = cell.height * i
+                cell.draw()
+
+
+def map_draw1():
+    for i in range(len(list1)):
+        for j in range(len(list1[0])):
+            if list1[i][j] == 1:
+                cell.left = cell.width * j
+                cell.top = cell.height * i
+                cell.draw()
+
+
+def draw():
+    if mode == 'start':
+        fon.draw()
+        map_draw()
+        char.draw()
+        sayler.draw()
+        leg.draw()
+        buttun_inventory.draw()
+        screen.draw.text("инвентарь", center=(530, 50), color='white', fontsize=20)
+    if mode == "menu":
+        fon.draw()
+        buttun.draw()
+        screen.draw.text("играть", center=(300, 420), color='white', fontsize=20)
+
+
+def update(dt):
+    old_x = char.x
+    old_y = char.y
+    leg.x = char.x + 5
+    leg.y = char.y + 30
+    if keyboard.d and char.x <= 590:
+        char.x += 5
+        leg.x += 5
+    if keyboard.a and char.x >= 10:
+        char.x -= 5
+        leg.x -= 5
+    cell_index = char.collidelist(list0)
+    if cell_index != -1:
+        char.x = old_x
+        char.y = old_y
+
+
+def on_key_down(key):
+    if keyboard.w:
+        char.y -= 80
+        leg.y -= 80
+        animate(char, tween='bounce_end', duration=4, y=455)
