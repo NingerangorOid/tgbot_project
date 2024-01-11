@@ -123,7 +123,12 @@ class Boss(AnimatedSprite):
                 if self.cur_frame < 4:
                     self.image = self.begin_frames[self.cur_frame]
             else:
-                self.image = self.begin_frames_left[self.cur_frame]
+                if self.do == 'идёт':
+                    if self.cur_frame < 4:
+                        self.image = self.begin_frames_left[self.cur_frame]
+                    else:
+                        self.cur_frame = 0
+                        self.image = self.fly_frames_left[self.cur_frame]
         self.rect = pygame.Rect(self.x + self.coordinats[0], self.y + self.coordinats[1],
                                 self.frames[0].get_width(), self.frames[0].get_height())
         self.framecount += 1
