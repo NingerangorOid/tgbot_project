@@ -1,1 +1,1 @@
-C:/Users/Pycharm Projects/newpic.jpg
+C:/Users/Pycharm Projects/dist/newpic.jpg
